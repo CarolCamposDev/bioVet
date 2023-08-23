@@ -9,6 +9,7 @@ import { ProdutoComponent } from './produto/produto.component';
 import { LoginComponent } from './login/login.component';
 import { TopoComponent } from './topo/topo.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { BanhoETosaComponent } from './banho-e-tosa/banho-e-tosa.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RodapeComponent } from './rodape/rodape.component';
     ProdutoComponent,
     LoginComponent,
     TopoComponent,
-    RodapeComponent
+    RodapeComponent,
+    BanhoETosaComponent
   ],
   imports: [
     BrowserModule,
