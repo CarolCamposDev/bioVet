@@ -4,11 +4,23 @@ import { PrincipalComponent } from './principal/principal.component';
 import { LoginComponent } from './login/login.component';
 import { BanhoETosaComponent } from './banho-e-tosa/banho-e-tosa.component';
 import { ProdutoComponent } from './produto/produto.component';
+import { AgendamentoComponent } from './agendamento/agendamento.component';
+import { AgendamentoSucessoComponent } from './agendamento-sucesso/agendamento-sucesso.component';
 
 const routes: Routes = [
   {
     path: 'principal', 
     component: PrincipalComponent
+  },
+
+  {
+    path: 'agendamento',
+    component: AgendamentoComponent
+  },
+
+  {
+    path: 'agendamento-sucesso',
+    component: AgendamentoSucessoComponent
   },
 
   {

@@ -10,6 +10,8 @@ import { LoginComponent } from './login/login.component';
 import { TopoComponent } from './topo/topo.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { BanhoETosaComponent } from './banho-e-tosa/banho-e-tosa.component';
+import { AgendamentoComponent } from './agendamento/agendamento.component';
+import { AgendamentoSucessoComponent } from './agendamento-sucesso/agendamento-sucesso.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { BanhoETosaComponent } from './banho-e-tosa/banho-e-tosa.component';
     LoginComponent,
     TopoComponent,
     RodapeComponent,
-    BanhoETosaComponent
+    BanhoETosaComponent,
+    AgendamentoComponent,
+    AgendamentoSucessoComponent
   ],
   imports: [
     BrowserModule,
