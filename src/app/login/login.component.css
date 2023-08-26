@@ -27,6 +27,14 @@ h1 {
     color: #646664;
 }
 
+.mt-4{
+  color: #646664;
+}
+
+a {
+  color: #17199e;
+}
+
 .btn-primary {
   width: auto;
   padding: 5px 20px;

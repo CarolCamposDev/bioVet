@@ -1,12 +1,19 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
-h1 {
+.text {
     color: #EF5B68;
     font-family: Modak;
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
     min-width: 500px;
     text-align: center;
     margin-top: 30px;
@@ -21,18 +28,16 @@ p {
     margin-right: 20px;
 }
 
-
 .btn-primary {
-    width: 190px;
+    width: 220px;
     height: 46.369px;
     flex-shrink: 0;
-    margin-left: 150px;
-
     border-radius: 60px;
     background: #84BD5F;
     color: #ffffff;
     font-weight: bold;
     border: none;
+    font-size: 20px;
 }
 
 .btn-primary:hover {
@@ -40,30 +45,82 @@ p {
     color: rgb(255, 255, 255);
 }
 
-#card-servicos{
+#card-servicos {
     font-family: Modak;
     color: #6f706e;
     min-width: 500px;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
-.col-md-6 {
-      margin-top: 20px; 
-    }
-
-.card-group {
-    margin-top: 150px;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 30px;
+.card-title {
+    color: rgba(70, 68, 68, 0.842);
 }
 
-.card-img-top {
-    width: 200px;
+.card-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
-.card-text {
-    color: rgb(97, 94, 94);
+.card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(52, 185, 103, 0.493);
+    width: 300px;
+    margin: 10px;
+}
+
+.container-ajuda {
+    height: 15%;
+    border-radius: 30px;
+    background-color: #2d6e01;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 1000px; 
+    margin-bottom: 30px;
+}
+
+.texto-ajuda {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 124%;
+    color: rgb(255, 255, 255);
+}
+
+#texto-ajuda {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 132%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 249, 244);
+}
+
+.botao-contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(10, 87, 39);
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 132%;
+    max-width: 260px;
+    text-decoration: none;
+}
+
+.botao-contato:hover {
+    background-color: #c5dbbb;
 }

@@ -3,11 +3,19 @@ import { RouterModule, Routes } from '@angular/router';
 import { PrincipalComponent } from './principal/principal.component';
 import { LoginComponent } from './login/login.component';
 import { BanhoETosaComponent } from './banho-e-tosa/banho-e-tosa.component';
-import { ProdutoComponent } from './produto/produto.component';
+import { ProdutosComponent } from './produtos/produtos.component';
 import { AgendamentoComponent } from './agendamento/agendamento.component';
 import { AgendamentoSucessoComponent } from './agendamento-sucesso/agendamento-sucesso.component';
+import { FaleConoscoComponent } from './fale-conosco/fale-conosco.component';
 
 const routes: Routes = [
+
+  {
+    path: "", 
+    redirectTo: 'principal', 
+    pathMatch: 'full'
+  },
+
   {
     path: 'principal', 
     component: PrincipalComponent
@@ -34,8 +42,13 @@ const routes: Routes = [
   },
 
   {
-    path: 'produto',
-    component: ProdutoComponent
+    path: 'produtos',
+    component: ProdutosComponent
+  },
+
+  {
+    path: 'fale-conosco',
+    component: FaleConoscoComponent
   }
 ];
 

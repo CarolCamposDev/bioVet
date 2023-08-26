@@ -9,7 +9,6 @@
     color: #84BD5F;
 }
 
-
 .navbar-nav .nav-item .nav-link.active {
   border-bottom: 2px solid #84BD5F;
   color: #84BD5F;
@@ -50,3 +49,19 @@
     background-color: #84BD5F;
     color: white;
 }
+
+.heart-icon { 
+    color: rgb(247, 244, 244); 
+}
+
+.btn-search {
+    background-color: #84BD5F;
+    border: none;
+}
+
+.bag {
+    margin: 15px;
+    color: #84BD5F;
+    font-size: 1.5rem;
+}
+
