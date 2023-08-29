@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 
 @Component({
@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './principal.component.html',
   styleUrls: ['./principal.component.css']
 })
-export class PrincipalComponent {
-
+export class PrincipalComponent implements OnInit {
+  ngOnInit(): void {
+    document.title = "BioVet 4 patas| Principal"
+  }
 }
